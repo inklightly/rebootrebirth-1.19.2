@@ -14,13 +14,13 @@ A lot of these were just race condition fixes.
 ## Stacktraces:
 
 <details markdown="1"><summary>[Let's Do] MutantMore.</summary>
-  Details:
-	Mod File: /home/********/mods/mutantmore-1.19.2-early_access-2.0.0.jar
-	Failure message: Mutant More (mutantmore) encountered an error during the common_setup event phase
-		java.lang.ArrayIndexOutOfBoundsException: Index 11 out of bounds for length 10
-	Mod Version: 1.0.0
-	Mod Issue URL: https://discord.gg/5qJDj9TxfF
-	Exception message: java.lang.ArrayIndexOutOfBoundsException: Index 11 out of bounds for length 10
+  Details: /
+	Mod File: /home/********/mods/mutantmore-1.19.2-early_access-2.0.0.jar /
+	Failure message: Mutant More (mutantmore) encountered an error during the common_setup event phase /
+		java.lang.ArrayIndexOutOfBoundsException: Index 11 out of bounds for length 10 /
+	Mod Version: 1.0.0 /
+	Mod Issue URL: https://discord.gg/5qJDj9TxfF /
+	Exception message: java.lang.ArrayIndexOutOfBoundsException: Index 11 out of bounds for length 10 /
 Stacktrace:
 	at java.util.ArrayList.add(ArrayList.java:455) ~[?:?] {re:mixin}
 	at java.util.ArrayList.add(ArrayList.java:467) ~[?:?] {re:mixin}
