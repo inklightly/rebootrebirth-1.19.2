@@ -14,7 +14,7 @@ A lot of these were just race condition fixes.
 ## Stacktraces:
 
 <details markdown="1"><summary>[Let's Do] MutantMore.</summary>
-  Details:  <br>
+```  Details:  <br>
 	Mod File: /home/********/mods/mutantmore-1.19.2-early_access-2.0.0.jar  <br/>
 	Failure message: Mutant More (mutantmore) encountered an error during the common_setup event phase  <br/>
 		java.lang.ArrayIndexOutOfBoundsException: Index 11 out of bounds for length 10  <br/>
@@ -38,7 +38,7 @@ Stacktrace:  <br/>
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}  <br/>
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}  <br/>
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}  <br/>
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}  <br/>
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}  <br/> ```
 </details>
 
 <details markdown="1"><summary>[Let's Do] Occultism</summary>
