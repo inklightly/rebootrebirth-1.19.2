@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"          # Forge 1.19.2 uses 43.x
+license = "All Rights Reserved"
+issueTrackerURL = ""
+
+showAsResourcePack = false
+
+[[mods]]
+modId = "rebootrebirth"
+version = "1.1.4"
+displayName = "Reboot Rebirth"
+authors = "inklightly"
+description = '''
+A mod to make the Rebirth SMP crash less on boot
+'''
+
+# Dependencies on Forge itself
+[[dependencies.rebootrebirth]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+# Dependencies on Minecraft
+[[dependencies.rebootrebirth]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,1.20)"
+ordering = "NONE"
+side = "BOTH"
